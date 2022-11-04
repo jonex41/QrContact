@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+       android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/count"
+        android:orderInCategory="200"
+
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/cancel"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_baseline_cancel_white"
+        android:title="cancel"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/done"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_baseline_done_24"
+        android:title="done"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>
